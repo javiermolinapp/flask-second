@@ -1,10 +1,6 @@
-import io
-import matplotlib
-matplotlib.use('Agg')
-from matplotlib import pyplot
-from flask import Flask, jsonify, request, send_file
+from flask import Flask
 from flask_cors import CORS, cross_origin
-import base64
+
 
 
 
